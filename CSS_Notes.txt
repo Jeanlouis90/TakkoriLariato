@@ -1,0 +1,20 @@
+p[name]{color:blue;}  every p with a name
+p[name="3"]{color:coral;} every p with the name of 3
+#tuna{color:antiquewhite;} - id tuna
+p.tuna{color:red;} - ever p with the class of tuna
+p:nth-child(odd){color:greenyellow;} - every odd child
+p:nth-child(even){color:burlywood} - every even child
+div > p {color:cadetblue} - every p under the div
+p.jean + p{color:cyan} - every paragraph IMMEDIATELY after the first paragraph (with the class of Jean) will be CYAN
+p.jean ~ p{color:cyan} every paragraph after after the first paragraph (with the class of Jean) will be CYAN (major difference is that the effected paragraphs DON'T have to IMMEDIATELY follow the first classed paragraph)
+
+    
+        <h2>Spring 2016 Review: Week One </h2>
+        
+        <!--
+            MADE WITH <3 AND SLEEP DEPRIVATION
+        -->
+        
+        <section>
+             So guys, I have decided to run down the list of anime coming out this season.
+        </section>
